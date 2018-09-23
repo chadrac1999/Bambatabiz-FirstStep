@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_primary"
+    tools:context="training.androidkotlin.bambatabiz.ConnexionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inscription"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:textColor="@color/inactive_color"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numéro de téléphone"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:drawableLeft="@drawable/ic_phone_android_white_24dp"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmer mot de passe"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom et prénom"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textCursorDrawable="@color/white"
+        android:drawableLeft="@drawable/ic_person_outline_white_24dp"
+        android:drawablePadding="10dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:inputType="text"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:text="S'inscrire"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vous avez déjà un compte?"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/btn_connectez_vous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connectez vous"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

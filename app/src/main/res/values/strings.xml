@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BambataBiz</string>
+
+    <string name="pref_name">My pref</string>
+    <string name="pref_key">My key</string>
+
+    <string name="button_suivant">Suivant</string>
+
+    <string name="slider1_title">Découvrez BambataBiz</string>
+    <string name="slider1_des">Débarrassez-vous de vos affaires dont vous n\'avez plus besoin et achetez de nouvelles affaires à moindre coût</string>
+
+    <string name="slider2_title">Gagnez de l\'argent</string>
+    <string name="slider2_des">Présentez et trouvez des acheteurs pour vos sacs, habits, portables, chaussures et autres... </string>
+
+    <string name="slider3_title">Besoin urgent de la robe?</string>
+    <string name="slider3_des">Elle est forcément sur BambataBiz, et beaucoup moins chère qu\'à
+        la boutique du coin</string>
+
+    <string name="sign_up_text">Inscrivez-vous</string>
+    <string name="title_activity_connexion">Connexion</string>
+
+    <string name="passe_oublié">Mot de passe oublié?</string>
+
+</resources>
